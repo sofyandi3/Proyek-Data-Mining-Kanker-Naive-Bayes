@@ -1,0 +1,28 @@
+materi yg saya pelajari sebelum uts ialah ringkasan Penerapan klasifikasi dengan Python: Decision Tree
+
+Dalam dunia data science, klasifikasi adalah salah satu teknik yang sangat penting untuk mengelompokkan data ke dalam kategori tertentu.
+Salah satu algoritma yang sering digunakan untuk klasifikasi adalah Decision Tree. 
+Berikut adalah ringkasan mengenai penerapan klasifikasi menggunakan Decision Tree dengan Python, serta dasar-dasar yang perlu dipahami.
+
+Dasar-dasar Python
+Python adalah bahasa pemrograman yang sangat populer di kalangan data scientist karena kemudahan penggunaannya dan banyaknya library yang mendukung analisis data.
+Beberapa library yang sering digunakan dalam klasifikasi adalah:
+- Pandas: Untuk manipulasi dan analisis data.
+- NumPy: Untuk operasi numerik yang efisien.
+- Scikit-learn: Library utama untuk machine learning di Python, yang menyediakan berbagai algoritma, termasuk Decision Tree.
+
+ Penerapan Decision Tree
+Penerapan Decision Tree dalam klasifikasi dapat dilakukan melalui beberapa langkah berikut:
+
+1. Import Library: Pertama, kita perlu mengimpor library yang diperlukan. 
+Ini termasuk `pandas` untuk mengelola data, `train_test_split` untuk membagi dataset, dan `DecisionTreeClassifier` dari `scikit-learn`.
+2. Membaca Dataset: Dataset yang berisi fitur dan label dibaca menggunakan `pandas`.
+Ini adalah langkah awal yang penting untuk mempersiapkan data yang akan dianalisis.
+3. Pra-pemrosesan Data: Setelah dataset dibaca, kita perlu memisahkan fitur (X) dan target (y).
+Ini melibatkan penghapusan kolom yang tidak relevan jika diperlukan.
+4. Membagi Data: Dataset kemudian dibagi menjadi data latih dan data uji.
+Biasanya, proporsi yang umum digunakan adalah 80% untuk pelatihan dan 20% untuk pengujian.
+5. Membuat dan Melatih Model: Dengan menggunakan `DecisionTreeClassifier`, kita membuat model dan melatihnya dengan data latih.
+Ini adalah langkah kunci di mana model belajar dari data.
+6. Memprediksi dan Evaluasi Model: Setelah model dilatih, kita dapat menggunakannya untuk memprediksi data uji.
+Selanjutnya, kita menghitung akurasi model dan menampilkan laporan klasifikasi untuk mengevaluasi performa model.
